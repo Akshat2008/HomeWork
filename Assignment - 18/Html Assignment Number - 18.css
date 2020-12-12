@@ -1,0 +1,46 @@
+.Apple{
+    height: 900px;
+    width: 1200px;
+    background-color: teal;
+    margin: 50px;
+    box-shadow: 15px 15px 15px grey;
+    transition-property: background-color;
+}
+.Apple:hover{
+    background-color: green;
+    transform: translate(-15px -15px);
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 20px 20px 10px grey;
+}
+.Apple:active{
+    transform: translate(10px 10px);
+    box-shadow: 5px 5px 3px grey;
+    transition: 0.2s;
+}
+.garv{
+    text-align: center;
+    height: 200px;
+    width: 1200px;
+    background-color: red;
+    font-size: 30px;
+    left: 0px;
+    top: 0px;
+    transition-property: height width background-color font-size left top transform;
+    
+
+}
+
+
+
+
+.garv:hover{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    font-size: 20px;
+    left: 600px;
+    top: 500px;
+    position: absolute;
+
+}
